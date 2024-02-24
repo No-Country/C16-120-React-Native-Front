@@ -55,13 +55,13 @@ La aplicación ofrece una **amplia variedad de senderos para explorar**, brindan
 [![Node.js](https://img.shields.io/badge/Node.js-v14.18.1-green?logo=node.js&style=flat-square)](https://nodejs.org/)
 [![Express.js](https://img.shields.io/badge/Express.js-v4.17.1-blue?logo=node.js&style=flat-square)](https://expressjs.com/)
 ![MySQL](https://img.shields.io/badge/MySQL-8.0-blue?logo=mysql&style=flat-square)
-[![Postman](https://img.shields.io/badge/Postman-Perfil-orange?logo=postman&style=flat-square)]
+[![Postman](https://img.shields.io/badge/Postman-Perfil-orange?logo=postman&style=flat-square)
 
 
-[![GitHub](https://img.shields.io/badge/GitHub-Perfil-lightgrey?logo=github&style=flat-square)]
-[![Figma](https://img.shields.io/badge/Figma-Perfil-yellow?logo=figma&style=flat-square)]
-[![Trello](https://img.shields.io/badge/Trello-Tablero-blue?logo=trello&style=flat-square)]
-[![Slack](https://img.shields.io/badge/Slack-Espacio_de_Trabajo-purple?logo=slack&style=flat-square)]
+[![GitHub](https://img.shields.io/badge/GitHub-Perfil-lightgrey?logo=github&style=flat-square)
+[![Figma](https://img.shields.io/badge/Figma-Perfil-yellow?logo=figma&style=flat-square)
+[![Trello](https://img.shields.io/badge/Trello-Tablero-blue?logo=trello&style=flat-square)
+[![Slack](https://img.shields.io/badge/Slack-Espacio_de_Trabajo-purple?logo=slack&style=flat-square)
 
 ## Autores
 
