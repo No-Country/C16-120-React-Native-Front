@@ -5,7 +5,7 @@
 
 ---
 
-## Problemática
+<h3> Problemática </h3>
 
 En Argentina, el turismo aventura es muy popular y atractivo debido a la riqueza de sus senderos naturales. Sin embargo, estos senderos suelen ser difíciles de encontrar y acceder, lo que puede aumentar el riesgo para los turistas.
 
@@ -13,20 +13,20 @@ Debido a la situación económica del país, son pocas las personas que pueden c
 
 ---
 
-## Solución
+<h3> Solución  </h3>
 
 Crear una **aplicación móvil especializada en senderismo**, sencilla y accesible para cualquier persona usuaria que desee obtener información de senderos para realizar turismo aventura en el país.
 
 ---
 
-## Objetivos
+<h3> Objetivos  </h3>
 
 - **Facilitar la experiencia en el senderismo** a las personas usuarias con nuestra aplicación.
 - **Ayudar e informar** a las personas usuarias sobre los caminos, y aportar recomendaciones para evitar riesgos.
 
 ---
 
-## Sobre la App
+<h3> Sobre la App </h3>
 
 **Sendereando** es una aplicación móvil, destinada a usuarios de 15 a 70 años de edad interesados en realizar senderismo en Argentina, especialmente aquellos que tienen poco conocimiento previo sobre el deporte.
 
@@ -46,6 +46,9 @@ La aplicación ofrece una **amplia variedad de senderos para explorar**, brindan
    </p>
    
 
+
+<h3> Tecnologias  </h3>
+
 [![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-Editor-orange?logo=visual-studio-code&style=flat-square)](https://code.visualstudio.com/)
 
 ![React Native](https://img.shields.io/badge/React_Native-v0.64.2-green?logo=react&style=flat-square)
@@ -63,6 +66,6 @@ La aplicación ofrece una **amplia variedad de senderos para explorar**, brindan
  ![Trello](https://img.shields.io/badge/Trello-blue?logo=trello&style=flat-square)
 ![Slack](https://img.shields.io/badge/Slack-purple?logo=slack&style=flat-square)
 
-## Autores
+<h3> Autores </h3>
 
 
