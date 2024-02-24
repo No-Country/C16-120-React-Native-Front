@@ -46,16 +46,14 @@ La aplicación ofrece una **amplia variedad de senderos para explorar**, brindan
    </p>
    
 ![React](https://img.shields.io/static/v1?style=for-the-badge&message=React&color=222222&logo=React&logoColor=61DAFB&label=)
- https://img.shields.io/badge/logo-javascript-blue?logo=javascript
+
 
 ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
 
-![Static Badge](https://img.shields.io/badge/javascrip?style=flat&label=Javascript&color=blue)
-
+![Javascript](https://img.shields.io/badge/javascrip?style=flat&label=Javascript&color=blue)
+![MySql](https://img.shields.io/badge/mysql?style=flat&label=Mysql&color=yellow)
 
 
 ## Autores
 
-**|<sub>Ariel Galeppi</sub>]https://github.com/ares1001 |  
-**
-Resultado:
+
