@@ -45,4 +45,4 @@ La aplicación ofrece una **amplia variedad de senderos para explorar**, brindan
    <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
    </p>
 
-![GitHub Org's stars](https://img.shields.io/github/stars/No-Country/C16-120-React-Native-Front?style=social)
+![GitHub Org's stars](https://img.shields.io/github/stars/No-Country/C16-120-React-Native-Front?)
