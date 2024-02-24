@@ -32,17 +32,17 @@ Crear una <h4>aplicación móvil especializada en senderismo</h4>, sencilla y ac
 
 La aplicación ofrece una **amplia variedad de senderos para explorar**, brindando a las personas usuarias información esencial sobre:
 
-🌍 Geolocalización
-⭐️ Nivel de Dificultad
-⏰ Tiempo estimado de caminata
-🚶‍♂️ Distancia de cada camino
-💡 Recomendaciones para garantizar una experiencia segura y placentera.
+-🌍 Geolocalización
+-⭐️ Nivel de Dificultad
+-⏰ Tiempo estimado de caminata
+-🚶‍♂️ Distancia de cada camino
+-💡 Recomendaciones para garantizar una experiencia segura y placentera.
 
 ---
 
 ¡Explora la naturaleza de Argentina con Sendereando!
 
-  <h4 align="center">
+  <h4 align="left">
    <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
     
 
