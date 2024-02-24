@@ -41,10 +41,11 @@ La aplicación ofrece una **amplia variedad de senderos para explorar**, brindan
 
 ¡Explora la naturaleza de Argentina con Sendereando!
 
-  <p align="left">
+  <h4 align="center">
    <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
-   </p>
-   
+   </h4>
+   [![GitHub stars](https://img.shields.io/github/stars/No-Country/C16-120-React-Native-Front?style=social)](https://github.com/No-Country/C16-120-React-Native-Front)
+
 
 
 <h3> Tecnologias  </h3>
