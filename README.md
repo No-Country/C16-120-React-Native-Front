@@ -1,4 +1,4 @@
-<h1>Sendereando</h1>1>
+<h1 align="center"> Sendereando</h1>
   - Aplicación para Senderismo en Argentina 
 
 
