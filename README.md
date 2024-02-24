@@ -50,10 +50,11 @@ La aplicación ofrece una **amplia variedad de senderos para explorar**, brindan
    <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
     
 
+<br>
+<br>
 
 
-
-<h3> Tecnologias  </h3>
+<h5> Tecnologias  </h5>
 
 [![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-Editor-orange?logo=visual-studio-code&style=flat-square)](https://code.visualstudio.com/)
 
