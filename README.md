@@ -62,6 +62,7 @@ La aplicación ofrece una **amplia variedad de senderos para explorar**, brindan
 [![Figma](https://img.shields.io/badge/Figma-Perfil-yellow?logo=figma&style=flat-square)]
 [![Trello](https://img.shields.io/badge/Trello-Tablero-blue?logo=trello&style=flat-square)]
 [![Slack](https://img.shields.io/badge/Slack-Espacio_de_Trabajo-purple?logo=slack&style=flat-square)]
+
 ## Autores
 
 
