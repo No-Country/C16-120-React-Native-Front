@@ -44,6 +44,17 @@ La aplicación ofrece una **amplia variedad de senderos para explorar**, brindan
   <p align="left">
    <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
    </p>
+   
+![React](https://img.shields.io/static/v1?style=for-the-badge&message=React&color=222222&logo=React&logoColor=61DAFB&label=)
 
-![GitHub Repo stars](https://img.shields.io/github/stars/:user/https%3A%2F%2Fgithub.com%2FNo-Country%2FC16-120-React-Native-Front)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
 
+
+
+
+
+## Autores
+
+////**| [<img src="https://avatars.githubusercontent.com/u/37356058?v=4" width=115><br><sub>Camila Fernanda Alves</sub>](https://github.com/camilafernanda) |  [<img src="https://avatars.githubusercontent.com/u/71970858?v=4" width=115><br><sub>Ellen Pimentel</sub>]([https://github.com/guilhermeonrails](https://github.com/ellenpimentel)) |  [<img src="https://avatars.githubusercontent.com/u/91544872?v=4" width=115><br><sub>Génesys Rondón</sub>](https://github.com/genesysaluralatam) |
+| :---: | :---: | :---: |///
+Resultado:
