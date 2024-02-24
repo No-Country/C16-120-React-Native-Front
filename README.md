@@ -57,7 +57,12 @@ La aplicación ofrece una **amplia variedad de senderos para explorar**, brindan
 <h5> Tecnologias  </h5>
 
 [![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-Editor-orange?logo=visual-studio-code&style=flat-square)](https://code.visualstudio.com/)
-![React Native](https://img.shields.io/badge/React_Native-Social-blue?logo=react&style=flat-square)
+![React Native Version](https://img.shields.io/badge/React_Native-v0.64.2-orange?logo=react&style=flat-square)
+![React Native Version](https://img.shields.io/badge/React_Native-v0.64.2-blue?logo=react&style=flat-square)
+![React Native](https://img.shields.io/badge/React_Native-0.64.2-blue?logo=react&style=flat-square)
+[![React Native Documentation](https://img.shields.io/badge/React_Native-Docs-blue?style=flat-square)](https://reactnative.dev/)
+
+
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript&style=flat-square)
 [![Node.js](https://img.shields.io/badge/Node.js-v14.18.1-green?logo=node.js&style=flat-square)](https://nodejs.org/)
