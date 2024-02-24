@@ -1,6 +1,6 @@
 # Sendereando - Aplicación para Senderismo en Argentina 
 
-![Static Badge](https://img.shields.io/badge/https%3A%2F%2Fgithub.com%2FNo-Country%2FC16-120-React-Native-Front)
+
 
 ---
 
@@ -39,4 +39,9 @@ La aplicación ofrece una **amplia variedad de senderos para explorar**, brindan
 ---
 
 ¡Explora la naturaleza de Argentina con Sendereando!
+
+  <p align="left">
+   <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
+   </p>
+
 
