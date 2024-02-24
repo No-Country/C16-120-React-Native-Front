@@ -44,8 +44,7 @@ La aplicación ofrece una **amplia variedad de senderos para explorar**, brindan
   <h4 align="center">
    <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
     
-  [![GitHub contributors](https://img.shields.io/github/contributors/No-Country/C16-120-React-Native-Front?style=flat-square)](https://github.com/No-Country/C16-120-React-Native-Front/graphs/contributors)
-
+[![Build Status](https://img.shields.io/travis/com/No-Country/C16-120-React-Native-Front?style=flat-square)](https://travis-ci.com/No-Country/C16-120-React-Native-Front)
 
 
 
