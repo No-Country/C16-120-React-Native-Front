@@ -50,7 +50,7 @@ La aplicación ofrece una **amplia variedad de senderos para explorar**, brindan
 
 ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
 
-![Javascript](https://img.shields.io/badge/javascrip?style=flat&label=Javascript&color=blue)
+![Javascript](https://img.shields.io/badge/Javascript-CA4245?style=for-the-badge&logo=javascript&logoColor=white)
 ![MySql](https://img.shields.io/badge/mysql?style=flat&label=Mysql&color=yellow)
 
 
