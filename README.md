@@ -1,5 +1,7 @@
 # Sendereando - Aplicación para Senderismo en Argentina 
 
+![Static Badge](https://img.shields.io/badge/https%3A%2F%2Fgithub.com%2FNo-Country%2FC16-120-React-Native-Front)
+
 ---
 
 ## Problemática
