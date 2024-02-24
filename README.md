@@ -15,7 +15,7 @@ Debido a la situación económica del país, son pocas las personas que pueden c
 
 <h3> Solución  </h3>
 
-Crear una <h4>aplicación móvil especializada en senderismo</h4>, sencilla y accesible para cualquier persona usuaria que desee obtener información de senderos para realizar turismo aventura en el país.
+Crear una **aplicación móvil especializada en senderismo**, sencilla y accesible para cualquier persona usuaria que desee obtener información de senderos para realizar turismo aventura en el país.
 
 ---
 
