@@ -21,16 +21,16 @@ Crear una <h4>aplicación móvil especializada en senderismo</h4>, sencilla y ac
 
 <h3> Objetivos  </h3>
 
-<h4>Facilitar la experiencia en el senderismo</h4> a las personas usuarias con nuestra aplicación.
-<h4>Ayudar e informar</h4>a las personas usuarias sobre los caminos, y aportar recomendaciones para evitar riesgos.
+**Facilitar la experiencia en el senderismo** a las personas usuarias con nuestra aplicación.
+**Ayudar e informar**a las personas usuarias sobre los caminos, y aportar recomendaciones para evitar riesgos.
 
 ---
 
 <h3> Sobre la App </h3>
 
-<h4>Sendereando</h4> es una aplicación móvil, destinada a usuarios de 15 a 70 años de edad interesados en realizar senderismo en Argentina, especialmente aquellos que tienen poco conocimiento previo sobre el deporte.
+**Sendereando** es una aplicación móvil, destinada a usuarios de 15 a 70 años de edad interesados en realizar senderismo en Argentina, especialmente aquellos que tienen poco conocimiento previo sobre el deporte.
 
-La aplicación ofrece una <h5>amplia variedad de senderos para explorar</h5>, brindando a las personas usuarias información esencial sobre:
+La aplicación ofrece una **amplia variedad de senderos para explorar**, brindando a las personas usuarias información esencial sobre:
 
 🌍 Geolocalización
 ⭐️ Nivel de Dificultad
