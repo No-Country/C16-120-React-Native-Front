@@ -49,6 +49,7 @@ La aplicación ofrece una **amplia variedad de senderos para explorar**, brindan
   <h4 align="left">
    <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
     
+<h1 style="background-color:orange; color:white; padding:10px;">En Desarrollo</h1>
 
 <br>
 <br>
