@@ -21,8 +21,8 @@ Crear una <h4>aplicación móvil especializada en senderismo</h4>, sencilla y ac
 
 <h3> Objetivos  </h3>
 
-- <h4>Facilitar la experiencia en el senderismo</h4>h4> a las personas usuarias con nuestra aplicación.
--<h4>Ayudar e informar</h4> a las personas usuarias sobre los caminos, y aportar recomendaciones para evitar riesgos.
+<h4>Facilitar la experiencia en el senderismo</h4> a las personas usuarias con nuestra aplicación.
+<h4>Ayudar e informar</h4>a las personas usuarias sobre los caminos, y aportar recomendaciones para evitar riesgos.
 
 ---
 
@@ -30,7 +30,8 @@ Crear una <h4>aplicación móvil especializada en senderismo</h4>, sencilla y ac
 
 <h4>Sendereando</h4> es una aplicación móvil, destinada a usuarios de 15 a 70 años de edad interesados en realizar senderismo en Argentina, especialmente aquellos que tienen poco conocimiento previo sobre el deporte.
 
-La aplicación ofrece una <p>amplia variedad de senderos para explorar</p>, brindando a las personas usuarias información esencial sobre:
+La aplicación ofrece una <h5>amplia variedad de senderos para explorar</h5>, brindando a las personas usuarias información esencial sobre:
+
 🌍 Geolocalización
 ⭐️ Nivel de Dificultad
 ⏰ Tiempo estimado de caminata
@@ -53,22 +54,29 @@ La aplicación ofrece una <p>amplia variedad de senderos para explorar</p>, brin
 [![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-Editor-orange?logo=visual-studio-code&style=flat-square)](https://code.visualstudio.com/)
 
 ![React Native](https://img.shields.io/badge/React_Native-v0.64.2-green?logo=react&style=flat-square)
+
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript&style=flat-square)
 
 
 [![Node.js](https://img.shields.io/badge/Node.js-v14.18.1-green?logo=node.js&style=flat-square)](https://nodejs.org/)
+
 [![Express.js](https://img.shields.io/badge/Express.js-v4.17.1-blue?logo=node.js&style=flat-square)](https://expressjs.com/)
 
 ![MySQL](https://img.shields.io/badge/MySQL-8.0-blue?logo=mysql&style=flat-square)
+
 ![Postman](https://img.shields.io/badge/Postman-Perfil-orange?logo=postman&style=flat-square)
 
 
 ![GitHub](https://img.shields.io/badge/GitHub-lightgrey?logo=github&style=flat-square)
+
 ![Figma](https://img.shields.io/badge/Figma-yellow?logo=figma&style=flat-square)
 
-![Trello](https://img.shields.io/badge/Trello-blue?logo=trello&style=flat-square)
- ![Slack](https://img.shields.io/badge/Slack-purple?logo=slack&style=flat-square)
+ ![Trello](https://img.shields.io/badge/Trello-blue?logo=trello&style=flat-square)
+ 
+![Slack](https://img.shields.io/badge/Slack-purple?logo=slack&style=flat-square)
 
 <h3> Autores </h3>
+
+
 
 
