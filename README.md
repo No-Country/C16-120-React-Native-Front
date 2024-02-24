@@ -1,4 +1,4 @@
-  <h1 align="center">![](https://github.com/No-Country/C16-120-React-Native-Front/blob/main/fondoRecurso%201.png)</h1>
+  <img align="center" src ="https://github.com/No-Country/C16-120-React-Native-Front/blob/main/fondoRecurso%201.png"></>
   - Aplicación para Senderismo en Argentina 
 
 
