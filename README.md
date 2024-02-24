@@ -45,28 +45,23 @@ La aplicación ofrece una **amplia variedad de senderos para explorar**, brindan
    <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
    </p>
    
-![React](https://img.shields.io/static/v1?style=for-the-badge&message=React&color=222222&logo=React&logoColor=61DAFB&label=)
+
+[![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-Editor-orange?logo=visual-studio-code&style=flat-square)](https://code.visualstudio.com/)
 
 ![React Native](https://img.shields.io/badge/React_Native-v0.64.2-green?logo=react&style=flat-square)
-
-![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
-
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript&style=flat-square)
 
-![MySQL](https://img.shields.io/badge/MySQL-8.0-blue?logo=mysql&style=flat-square)
 
-[![Trello](https://img.shields.io/badge/Trello-Tablero-blue?logo=trello&style=flat-square)](URL_DEL_TABLERO)
-
-[![Slack](https://img.shields.io/badge/Slack-Espacio_de_Trabajo-purple?logo=slack&style=flat-square)](URL_DEL_ESPACIO_DE_TRABAJO)
-[![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-Editor-orange?logo=visual-studio-code&style=flat-square)](https://code.visualstudio.com/)
-[![GitHub](https://img.shields.io/badge/GitHub-Perfil-lightgrey?logo=github&style=flat-square)](URL_DE_GITHUB)
 [![Node.js](https://img.shields.io/badge/Node.js-v14.18.1-green?logo=node.js&style=flat-square)](https://nodejs.org/)
 [![Express.js](https://img.shields.io/badge/Express.js-v4.17.1-blue?logo=node.js&style=flat-square)](https://expressjs.com/)
+![MySQL](https://img.shields.io/badge/MySQL-8.0-blue?logo=mysql&style=flat-square)
+[![Postman](https://img.shields.io/badge/Postman-Perfil-orange?logo=postman&style=flat-square)]
 
-[![Figma](https://img.shields.io/badge/Figma-Perfil-yellow?logo=figma&style=flat-square)](URL_DEL_PERFIL)
-[![Postman](https://img.shields.io/badge/Postman-Perfil-orange?logo=postman&style=flat-square)](URL_DEL_PERFIL)
 
-
+[![GitHub](https://img.shields.io/badge/GitHub-Perfil-lightgrey?logo=github&style=flat-square)]
+[![Figma](https://img.shields.io/badge/Figma-Perfil-yellow?logo=figma&style=flat-square)]
+[![Trello](https://img.shields.io/badge/Trello-Tablero-blue?logo=trello&style=flat-square)]
+[![Slack](https://img.shields.io/badge/Slack-Espacio_de_Trabajo-purple?logo=slack&style=flat-square)]
 ## Autores
 
 
