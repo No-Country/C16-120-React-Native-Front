@@ -1,24 +1,22 @@
-import React from 'react';
-import {StyleSheet, View } from 'react-native';
-import Main from './src/components/Main.jsx'
+import * as React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import LoginScreen from './screens/LoginScreen';
+import SignUpScreen from './screens/SignUpScreen';
+import SuccessScreen from './screens/SuccessScreen';
 
+const Stack = createNativeStackNavigator();
 
-export default function App() {
+function App() {
   return (
-    <View>
-      <Main/>
-      
-      
-      
-    </View>
+    <NavigationContainer>
+      <Stack.Navigator initialRouteName='Login' screenOptions={ {headerShown: false }}>
+        <Stack.Screen name="Login" component={LoginScreen} />
+        <Stack.Screen name="SignUp" component={SignUpScreen} />
+        <Stack.Screen name="Success" component={SuccessScreen} />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default App;

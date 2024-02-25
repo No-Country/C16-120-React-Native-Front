@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "nocountry",
-    "slug": "nocountry",
+    "name": "C16-120-React-Native-Front-main",
+    "slug": "C16-120-React-Native-Front-main",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,23 +15,19 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.ares1001.nocountry"
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      },
-      "package": "com.ares1001.nocountry"
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "extra": {
-      "eas": {
-        "projectId": "9f7981dd-747b-4561-b45f-0a29e22b15ef"
-      }
-    }
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
