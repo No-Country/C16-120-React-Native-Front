@@ -13,15 +13,24 @@ import { TextInput } from "react-native-paper";
 import { useNavigation } from "@react-navigation/native";
 import React, { useState } from "react";
 import axios from "axios";
+import * as SecureStore from 'expo-secure-store'
 
 export default function LoginScreen() {
   const dismissKeyboard = () => {
-    Keyboard.dismiss();
+    // Keyboard.dismiss();
   };
+
+
+  async function save(key, value) {
+    await SecureStore.setItemAsync(key, value);
+  }
+
+
   const navigation = useNavigation();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
+
 
   async function signInWithEmail() {
     setLoading(true);
@@ -36,29 +45,24 @@ export default function LoginScreen() {
       .then((response) => response)
       .then(
         (data) => data
-
+        
         // navigation.push("Success")
       )
       .catch((error) => console.error(error));
-    if (login.status === 200) {
-      navigation.push("Success");
-    }
-  }
-  async function signUpWithEmail() {
-    setLoading(true);
-    const {
-      data: { session },
-      error,
-    } = await {
-      email: email,
-      password: password,
-    };
+    if (login.data.status === 200) {
+       
+      
+       save("token", login.data.body);
+     
+      // const miToken=await getValueFor("token")
+     
 
-    if (error) Alert.alert(error.message);
-    if (!session)
-      Alert.alert("Please check your inbox for email verification!");
-    setLoading(false);
+      navigation.push("Populares");
+    }
+
+
   }
+  
   return (
     <TouchableWithoutFeedback onPress={dismissKeyboard}>
       <View style={styles.container}>
@@ -87,7 +91,7 @@ export default function LoginScreen() {
          
                 </View>
                 <View style ={styles.containerButton}>
-            <TouchableOpacity  onPress={()=> navigation.push('Success')}>
+            <TouchableOpacity  onPress={()=> signInWithEmail()}>
                         <Text style={styles.TextButton}>Enviar</Text>
                     </TouchableOpacity>
           </View>
@@ -100,7 +104,7 @@ export default function LoginScreen() {
 
       
       <View style={styles.forgottenContainer}>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.push("Forget")}>
           <Text style={styles.forgottenText}>¿Olvidaste tu Contraseña?</Text>
         </TouchableOpacity>
       </View>

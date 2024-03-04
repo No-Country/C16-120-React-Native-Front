@@ -2,12 +2,18 @@ import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, TouchableWithoutFeedback, Keyboard, Image } from 'react-native';
 import { TextInput } from 'react-native-paper';
 import { useNavigation } from '@react-navigation/native';
+import { useState } from 'react';
+import { Ionicons } from '@expo/vector-icons';
 
-export default function SignUpScreen() {
-    const dismissKeyboard = () => {
-        Keyboard.dismiss();
-    };
+export default function ProfileScreen() {
     const navigation = useNavigation();
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const dismissKeyboard = () => {
+      Keyboard.dismiss();
+    };
+    const toggleMenu = () => {
+      setIsMenuOpen(!isMenuOpen);
+    };
 
     return (
         <TouchableWithoutFeedback onPress={dismissKeyboard}>
@@ -17,12 +23,36 @@ export default function SignUpScreen() {
                     <Image style={styles.img} source={require('../../assets/Logo.png')} />
                 </View>
 
+                <View><Text style={styles.navbarText}>Bienvenido</Text></View>
+      <View style={styles.Burguernavbar}>
+       
+      
+         <TouchableOpacity onPress={toggleMenu}>
+          <Ionicons name="menu-outline" size={32} color="orange" />
+        </TouchableOpacity>
+      </View>
+
+      {/* Menú desplegable */}
+      {isMenuOpen && (
+        <View style={styles.dropdown}>
+          <TouchableOpacity style={styles.option} onPress={() => navigation.push('Login')}>
+            <Text style={styles.optionText}>Inicio</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.option} onPress={() => navigation.push('Trails')}>
+            <Text style={styles.optionText}>Agregar Sendero</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.option} onPress={() =>navigation.push('Datos')}>
+            <Text style={styles.optionText}>Mis rutas</Text>
+          </TouchableOpacity>
+        </View>
+      )}
+
                 {/* Title and Forms */}
                 <View style={styles.content}>
                     {/* Title */}
                     <View style={styles.titleContainer}>
                         <Text style={styles.titleText}>
-                            Registro
+                            Mis datos
                         </Text>
                     </View>
 
@@ -32,11 +62,11 @@ export default function SignUpScreen() {
                         <TextInput style={styles.input} label="Email" />
                         <TextInput style={styles.input} label="Usuario" />
                         <TextInput style={styles.input} label="Contraseña" />
-                        <TextInput style={styles.input} label="Repetir contraseña" />
+                        
 
                         {/* Button */}
-                        <TouchableOpacity style={styles.button} onPress={() => navigation.push('SignUpOk')}>
-                            <Text style={styles.buttonText}>Crear Cuenta</Text>
+                        <TouchableOpacity style={styles.button} onPress={() => navigation.push('Success')}>
+                            <Text style={styles.buttonText}>Editar mis datos</Text>
                         </TouchableOpacity>
                     </View>
                 </View>
@@ -85,4 +115,5 @@ const styles = StyleSheet.create({
         color: 'white',
         fontSize: 18,
     },
+    
 });

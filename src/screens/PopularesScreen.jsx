@@ -1,107 +1,93 @@
-
-import React from 'react';
-import { View, Text, StyleSheet, TouchableOpacity,Keyboard,TouchableWithoutFeedback } from 'react-native';
-import { Paragraph } from 'react-native-paper';
+import React, { useState, useEffect } from 'react';
+import { View, Text, StyleSheet, TouchableOpacity, Keyboard, TouchableWithoutFeedback } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { useNavigation } from "@react-navigation/native";
-import { useState } from 'react';
+import axios from 'axios';
 
 const Populares = () => {
   const navigation = useNavigation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [trails, setTrails] = useState([]);
+
+
+
+  const fetchTrails = async () => {
+    try {
+      const response = await axios.get('https://c16-120-m-reactnative-back-dev.up.railway.app/api/trails');
+      setTrails(response.data.body);
+    } catch (error) {
+      console.error('Error fetching trails:', error);
+    }
+  };
+
+  useEffect(() => {
+    fetchTrails();
+  }, []);
+  
+
   const dismissKeyboard = () => {
     Keyboard.dismiss();
   };
+
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  const handleOptionSelect = (option) => {
-    console.log('Opción seleccionada:', option);
-    // Aquí puedes manejar la lógica cuando se selecciona una opción del menú
-    setIsMenuOpen(false); // Cerrar el menú después de seleccionar una opción
-  };
   return (
     <TouchableWithoutFeedback onPress={dismissKeyboard}>
-    <View style={styles.container}>
-      {/* Navbar */}
-      
-      <View><Text style={styles.navbarText}>Bienvenido</Text></View>
-      <View style={styles.Burguernavbar}>
-       
-      
-         <TouchableOpacity onPress={toggleMenu}>
-          <Ionicons name="menu-outline" size={32} color="orange" />
-        </TouchableOpacity>
-      </View>
-
-      {/* Menú desplegable */}
-      {isMenuOpen && (
-        <View style={styles.dropdown}>
-          <TouchableOpacity style={styles.option} onPress={() => navigation.push('Login')}>
-            <Text style={styles.optionText}>Inicio</Text>
-          </TouchableOpacity>
-          <TouchableOpacity style={styles.option} onPress={() => navigation.push('Trails')}>
-            <Text style={styles.optionText}>Agregar Sendero</Text>
-          </TouchableOpacity>
-          <TouchableOpacity style={styles.option} onPress={() => handleOptionSelect('Perfil')}>
-            <Text style={styles.optionText}>Perfil</Text>
+      <View style={styles.container}>
+        {/* Navbar */}
+        <View><Text style={styles.navbarText}>Bienvenido</Text></View>
+        <View style={styles.Burguernavbar}>
+          <TouchableOpacity onPress={toggleMenu}>
+            <Ionicons name="menu-outline" size={32} color="orange" />
           </TouchableOpacity>
         </View>
-      )}
+
+        {/* Menú desplegable */}
+        {isMenuOpen && (
+          <View style={styles.dropdown}>
+            <TouchableOpacity style={styles.option} onPress={() => navigation.push('Login')}>
+              <Text style={styles.optionText}>Inicio</Text>
+            </TouchableOpacity>
+            <TouchableOpacity style={styles.option} onPress={() => navigation.push('Trails')}>
+              <Text style={styles.optionText}>Agregar Sendero</Text>
+            </TouchableOpacity>
+            <TouchableOpacity style={styles.option} onPress={() => navigation.push('Profile')}>
+              <Text style={styles.optionText}>Perfil</Text>
+            </TouchableOpacity>
+          </View>
+        )}
+
+        {/* Título "Senderos Populares" */}
+        <View style={styles.titleContainer}>
+          <Text style={styles.title}>Los senderos más populares</Text>
+        </View>
+        <View style={styles.cardContainer}>
+          {/* Mapear los datos de los senderos en las tarjetas */}
+          {trails.map((trail, index) => {
+            return (
+              <View key={index} style={styles.card}>
+                <Text style={styles.cardText}>{trail.nombreRuta}</Text>
+                <Text style={styles.cardTextProvincia}>{trail.provincia}</Text>
+
+                {/* Aquí agregamos los botones */}
+                <View style={styles.buttonContainer}>
+                  <TouchableOpacity style={styles.guardarButton} onPress={() => navigation.push('Success')}>
+                    <Text style={styles.GuardarbuttonText}>Guardar</Text>
+                  </TouchableOpacity>
+                  <TouchableOpacity style={styles.verButton} onPress={() => navigation.navigate('Datos', trail)}>
+                     <Text style={styles.VerbuttonText}>Ver más</Text>
+                      </TouchableOpacity>
+                </View>
+              </View>
+            );
+          })}
+        </View>
+     
       
-
-      {/* Título "Senderos Populares" */}
-      <View style={styles.titleContainer}>
-        <Text style={styles.title}>Los senderos más populares</Text>
+        {/* Espacios estilo tarjeta*/}
       </View>
-
-      {/* Espacios estilo tarjeta */}
-      <View style={styles.cardContainer}>
-        {/* Espacio 1 */}
-        <View style={[styles.card, styles.initialCard]}>
-          <Text style={styles.cardText}>Aguas Chiquitas</Text>
-          <Text style={styles.cardTextProvincia}>Tucumán</Text>
-          {/* Aquí agregamos los botones */}
-          <View style={styles.buttonContainer}>
-            <TouchableOpacity style={styles.guardarButton} onPress={() => navigation.push('Success')}>
-              <Text style={styles.GuardarbuttonText}>Guardar</Text>
-            </TouchableOpacity>
-            <TouchableOpacity style={styles.verButton} onPress={() => navigation.push('Datos')}>
-              <Text style={styles.VerbuttonText}>Ver más</Text>
-            </TouchableOpacity>
-          </View>
-        </View>
-
-        {/* Espacio 2 */}
-        <View style={styles.card}>
-          <Text style={styles.cardText}>Texto del espacio 2</Text>
-          <Text style={styles.cardTextProvincia}>Texto del espacio 1</Text>
-          <View style={styles.buttonContainer}>
-            <TouchableOpacity style={styles.guardarButton} onPress={() => navigation.push('Success')}>
-              <Text style={styles.GuardarbuttonText}>Guardar</Text>
-            </TouchableOpacity>
-            <TouchableOpacity style={styles.verButton} onPress={() => navigation.push('Success')}>
-              <Text style={styles.VerbuttonText}>Ver más</Text>
-            </TouchableOpacity>
-          </View>
-        </View>
-
-        {/* Espacio 3 */}
-        <View style={styles.card}>
-          <Text style={styles.cardText}>Texto del espacio 3</Text>
-          <Text style={styles.cardTextProvincia}>Texto del espacio 1</Text>
-          <View style={styles.buttonContainer}>
-            <TouchableOpacity style={styles.guardarButton} onPress={() => navigation.push('Success')}>
-              <Text style={styles.GuardarbuttonText}>Guardar</Text>
-            </TouchableOpacity>
-            <TouchableOpacity style={styles.verButton} onPress={() => navigation.push('Success')}>
-              <Text style={styles.VerbuttonText}>Ver más</Text>
-            </TouchableOpacity>
-          </View>
-        </View>
-      </View>
-    </View>
     </TouchableWithoutFeedback>
   );
 };
@@ -158,7 +144,6 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
   cardContainer: {
-    
     marginTop: 50,
     alignContent:"space-between"
   },
@@ -170,8 +155,6 @@ const styles = StyleSheet.create({
     borderColor: '#ccc',
     borderRadius: 10,
     padding: 10,
-   
- 
   },
   cardText: {
     fontSize: 16,
@@ -184,12 +167,11 @@ const styles = StyleSheet.create({
     fontSize: 14,
     textAlign: 'left',
     marginLeft:40,
-    },
+  },
   buttonContainer: {
     marginTop:40,
     flexDirection: 'row',
     justifyContent: 'flex-end',
-    
   },
   guardarButton: {
     backgroundColor: 'rgb(255 255 255)',
@@ -216,8 +198,8 @@ const styles = StyleSheet.create({
   GuardarbuttonText: {
     color: 'rgb(52 136 136)',
     fontWeight: 'bold',
-  
-}
+  }
 });
 
 export default Populares;
+
