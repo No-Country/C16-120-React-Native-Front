@@ -35,6 +35,7 @@ const Datos = () => {
         
           <Text style={styles.title}>{trail.nombreRuta}</Text>
           <Text style={styles.title2}>{trail.provincia}</Text>
+          <Image style={styles.img} source={require('../../assets/1.png')}/>
         </View> 
 
         <View style={styles.datosRecorrido}>
