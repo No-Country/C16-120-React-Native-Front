@@ -19,46 +19,46 @@ export default function ProfileScreen() {
         <TouchableWithoutFeedback onPress={dismissKeyboard}>
             <View style={styles.container}>
                 {/* Logo */}
-                <View style={styles.containerImage}>
-                    <Image style={styles.img} source={require('../../assets/Logo.png')} />
-                </View>
-
-                <View><Text style={styles.navbarText}>Bienvenido</Text></View>
-      <View style={styles.Burguernavbar}>
-       
-      
-         <TouchableOpacity onPress={toggleMenu}>
-          <Ionicons name="menu-outline" size={32} color="orange" />
-        </TouchableOpacity>
-      </View>
-
-      {/* Menú desplegable */}
-      {isMenuOpen && (
-        <View style={styles.dropdown}>
-          <TouchableOpacity style={styles.option} onPress={() => navigation.push('Login')}>
-            <Text style={styles.optionText}>Inicio</Text>
-          </TouchableOpacity>
-          <TouchableOpacity style={styles.option} onPress={() => navigation.push('Trails')}>
-            <Text style={styles.optionText}>Agregar Sendero</Text>
-          </TouchableOpacity>
-          <TouchableOpacity style={styles.option} onPress={() =>navigation.push('Datos')}>
-            <Text style={styles.optionText}>Mis rutas</Text>
+                <View><Text style={styles.navbarText}>Perfil</Text></View>
+        <View style={styles.Burguernavbar}>
+          <TouchableOpacity onPress={toggleMenu}>
+            <Ionicons name="menu-outline" size={32} color="orange" />
           </TouchableOpacity>
         </View>
-      )}
+
+        {/* Menú desplegable */}
+        {isMenuOpen && (
+          <View style={styles.dropdown}>
+          <TouchableOpacity style={styles.option} onPress={() => navigation.push('Login')}>
+            <View style={styles.optionContent}>
+              <Ionicons name="home" size={16} color="orange" />
+              <Text style={styles.optionText}> Inicio</Text>
+            </View>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.option} onPress={() => navigation.push('Trails')}>
+            <View style={styles.optionContent}>
+              <Ionicons name="pencil" size={16} color="orange" />
+              <Text style={styles.optionText}> Agregar Sendero</Text>
+            </View>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.option} onPress={() => navigation.push('Profile')}>
+            <View style={styles.optionContent}>
+              <Ionicons name="person" size={16} color="orange" />
+              <Text style={styles.optionText}> Perfil</Text>
+            </View>
+          </TouchableOpacity>
+        </View>
+        )}
 
                 {/* Title and Forms */}
                 <View style={styles.content}>
                     {/* Title */}
                     <View style={styles.titleContainer}>
-                        <Text style={styles.titleText}>
-                            Mis datos
-                        </Text>
-                    </View>
+          <Text style={styles.title}>Mi perfil</Text>
+        </View>
 
                     {/* Forms */}
                     <View style={styles.formContainer}>
-                        <TextInput style={styles.input} label="Nombre y Apellido" />
                         <TextInput style={styles.input} label="Email" />
                         <TextInput style={styles.input} label="Usuario" />
                         <TextInput style={styles.input} label="Contraseña" />
@@ -78,29 +78,62 @@ export default function ProfileScreen() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: 'white',
-        paddingHorizontal: 20,
-    },
-    content: {
-        flex: 1,
-        justifyContent: 'center',
-    },
-    containerImage: {
-        alignItems: 'center',
-        marginTop: 80,
-        marginLeft:30
-    },
-    titleContainer: {
+        backgroundColor: '#fff',
+        padding: 20,
+      },
+      Burguernavbar: {
+        flexDirection: 'row',
+        justifyContent: 'flex-start',
         alignItems: 'center',
         marginBottom: 20,
-    },
-    titleText: {
-        color: '#4C4B4B',
-        fontWeight: '700',
-        fontSize: 28,
-    },
+        marginTop: 10, // Mover el navbar hacia abajo
+      },
+      navbarText: {
+        backgroundColor:"rgb(228 228 224)",
+        paddingTop:10,
+        height:64,
+        width:"100%",
+        textAlign:"center",
+        fontSize: 30,
+        marginTop:90
+      },
+      titleContainer: {
+        marginBottom: 10,
+        color:"grey"
+      },
+      title: {
+        fontSize: 24,
+        fontWeight: 'bold',
+        color:"grey",
+        textAlign:"center"
+      },
+      dropdown: {
+        position:"absolute",
+        top: 150, // Ajusta la posición del menú desplegable según sea necesario
+        left:60, // Ajusta la posición del menú desplegable según sea necesario
+        backgroundColor: '#fff',
+        borderRadius: 5,
+        borderWidth: 1,
+        borderColor: '#ccc',
+        zIndex:1,
+        textAlign:"left"
+        
+      },
+      option: {
+        paddingVertical: 10,
+        paddingHorizontal: 20,
+      },
+      optionContent: {
+        flexDirection: 'row',
+        alignItems: 'center',
+      },
+      optionText: {
+        fontSize: 18,
+        color:"orange"
+      },
+      
     formContainer: {
-        marginTop: 20,
+        marginTop: 120,
     },
     input: {
         marginBottom: 20,

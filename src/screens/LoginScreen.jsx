@@ -17,7 +17,7 @@ import * as SecureStore from 'expo-secure-store'
 
 export default function LoginScreen() {
   const dismissKeyboard = () => {
-    // Keyboard.dismiss();
+    Keyboard.dismiss();
   };
 
 
@@ -72,14 +72,15 @@ export default function LoginScreen() {
         <View style={styles.titleText}>
           <Text style={styles.titleFonts}>Iniciar Sesión</Text>
         </View>
-      <View style={styles.formContainer}>
+      <View style={styles.formContainerUser}>
          <TextInput
               label="Usuario"
               onChangeText={(text) => setEmail(text)}
               value={email}
               placeholder="email@address.com"
               autoCapitalize={"none"}
-            />
+            /></View>
+            <View style={styles.formContainerPass}>
           <TextInput
               label="Contraseña"
               onChangeText={(text) => setPassword(text)}
@@ -92,7 +93,7 @@ export default function LoginScreen() {
                 </View>
                 <View style ={styles.containerButton}>
             <TouchableOpacity  onPress={()=> signInWithEmail()}>
-                        <Text style={styles.TextButton}>Enviar</Text>
+                        <Text style={styles.TextButton}>Iniciar sesion</Text>
                     </TouchableOpacity>
           </View>
           <View style={styles.forgetContainer}>
@@ -127,6 +128,13 @@ const styles = StyleSheet.create({
     
   },
 
+  img:{ 
+width:360,
+height:150,
+marginBottom:100,
+marginLeft:50
+  },
+
   titleText: {
     marginBottom:20
   },
@@ -137,21 +145,22 @@ const styles = StyleSheet.create({
     fontWeight: "700",
     fontSize: 28,
   },
-  formContainer: {
+  formContainerUser: {
     width:"100%",
-  },
-  containerUser: {
     fontWeight: "400",
     fontSize: 16,
-    padding: 30,
+    padding: 10,
     gap:8
   },
-  containerPassword: {
-    gap:10,
+
+  formContainerPass: {
+    width:"100%",
     fontWeight: "400",
     fontSize: 16,
-    padding: 30,
+    padding: 10,
+    gap:8
   },
+
   containerButton: {
     height:40,
     width:134,

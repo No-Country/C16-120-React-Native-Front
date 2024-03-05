@@ -46,17 +46,27 @@ const Populares = () => {
 
         {/* Menú desplegable */}
         {isMenuOpen && (
-          <View style={styles.dropdown}>
-            <TouchableOpacity style={styles.option} onPress={() => navigation.push('Login')}>
-              <Text style={styles.optionText}>Inicio</Text>
-            </TouchableOpacity>
-            <TouchableOpacity style={styles.option} onPress={() => navigation.push('Trails')}>
-              <Text style={styles.optionText}>Agregar Sendero</Text>
-            </TouchableOpacity>
-            <TouchableOpacity style={styles.option} onPress={() => navigation.push('Profile')}>
-              <Text style={styles.optionText}>Perfil</Text>
-            </TouchableOpacity>
-          </View>
+     <View style={styles.dropdown}>
+     <TouchableOpacity style={styles.option} onPress={() => navigation.push('Populares')}>
+       <View style={styles.optionContent}>
+         <Ionicons name="home" size={16} color="orange" />
+         <Text style={styles.optionText}> Inicio</Text>
+       </View>
+     </TouchableOpacity>
+     <TouchableOpacity style={styles.option} onPress={() => navigation.push('Trails')}>
+       <View style={styles.optionContent}>
+         <Ionicons name="pencil" size={16} color="orange" />
+         <Text style={styles.optionText}> Agregar Sendero</Text>
+       </View>
+     </TouchableOpacity>
+     <TouchableOpacity style={styles.option} onPress={() => navigation.push('Profile')}>
+       <View style={styles.optionContent}>
+         <Ionicons name="person" size={16} color="orange" />
+         <Text style={styles.optionText}> Perfil</Text>
+       </View>
+     </TouchableOpacity>
+   </View>
+   
         )}
 
         {/* Título "Senderos Populares" */}
@@ -140,8 +150,14 @@ const styles = StyleSheet.create({
     paddingVertical: 10,
     paddingHorizontal: 20,
   },
+  optionContent: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
   optionText: {
     fontSize: 16,
+    color:"orange",
+    fontWeight:"bold"
   },
   cardContainer: {
     marginTop: 50,
