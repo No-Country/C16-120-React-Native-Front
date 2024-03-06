@@ -59,10 +59,10 @@ const Populares = () => {
          <Text style={styles.optionText}> Agregar Sendero</Text>
        </View>
      </TouchableOpacity>
-     <TouchableOpacity style={styles.option} onPress={() => navigation.push('Profile')}>
+     <TouchableOpacity style={styles.option} onPress={() => navigation.push('Search')}>
        <View style={styles.optionContent}>
          <Ionicons name="person" size={16} color="orange" />
-         <Text style={styles.optionText}> Perfil</Text>
+         <Text style={styles.optionText}> Buscar sendero</Text>
        </View>
      </TouchableOpacity>
    </View>
