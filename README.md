@@ -58,16 +58,16 @@ La aplicación ofrece una **amplia variedad de senderos para explorar**, brindan
 <br>
 ### Requerimientos 🛠️
 
-1. **Clonar el repositorio:**
+ Clonar el repositorio
 ```sh
 git clone https://github.com/No-Country/C16-120-React-Native-Front.git
 ```
-sh
+
 ```
 cd Client/
 npm install
 ```
-sh
+
 ```
 npm start
 ```
