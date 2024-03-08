@@ -56,7 +56,8 @@ La aplicación ofrece una **amplia variedad de senderos para explorar**, brindan
 
 <br>
 <br>
-#Requerimientos 🛠️
+# Requerimientos 🛠️
+
 
  Clonar el repositorio
 ```sh
