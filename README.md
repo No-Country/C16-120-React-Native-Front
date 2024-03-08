@@ -62,12 +62,15 @@ La aplicación ofrece una **amplia variedad de senderos para explorar**, brindan
 ```sh
 git clone https://github.com/No-Country/C16-120-React-Native-Front.git
 
+sh
 
-cd Client/ && npm install
+cd Client/
+npm install
+
+sh
 
 npm start
 
-```
 
 
 # Nuestro team 👇🏻
