@@ -71,12 +71,12 @@ Correr el proyecto localmente
 npm start
 ```
 
-![Foto de perfil](https://github.com/No-Country/C16-120-React-Native-Front/blob/main/1693237604423.jpeg)
+
 
 
 # Nuestro team 👇🏻
 
-| <img src="https://avatars.githubusercontent.com/u/" width=64>| <img src="https://avatars.githubusercontent.com/u/v=4" width=64>|  <img src="https://avatars.githubusercontent.com/u/" width=64>  |  <img src="https://avatars.githubusercontent.com/u/v=4" width=64>  |  <img src="https://avatars.githubusercontent.com/u/v=4" width=64> |
+| <img src="https://avatars.githubusercontent.com/u/" width=64>| <img src="https://github.com/No-Country/C16-120-React-Native-Front/blob/main/1693237604423.jpeg" width=64>|  <img src="https://avatars.githubusercontent.com/u/" width=64>  |  <img src="https://avatars.githubusercontent.com/u/v=4" width=64>  |  <img src="https://avatars.githubusercontent.com/u/v=4" width=64> |
 :-:|:-:|:-:|:-:|:-:|
 | **Andrea Vilanova**  | **Melisa Molina**  | **Alejandra Panizza**  | **Ariel Galeppi**  
 
