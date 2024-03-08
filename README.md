@@ -67,7 +67,6 @@ Instalar dependencias
 
 ```sh
 cd .\Client\ | npm install
-```
 
 
 ```tipear el comando npm i , para bajar las dependencias
