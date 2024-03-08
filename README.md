@@ -92,7 +92,7 @@ npm start
 
 # Nuestro team 👇🏻
 
-| <img src="https://github.com/No-Country/C16-120-React-Native-Front/blob/main/1698318017602.jpeg" width=64>| <img src="https://avatars.githubusercontent.com/u/v=4" width=64>|  <img src="https://avatars.githubusercontent.com/u/" width=64>  |  <img src="https://avatars.githubusercontent.com/u/v=4" width=64>  |  <img src="https://avatars.githubusercontent.com/u/v=4" width=64> |
+| <img src="https://github.com/No-Country/C16-120-React-Native-Front/blob/main/1698318017602.jpeg" width=64>| <img src="https://github.com/No-Country/C16-120-React-Native-Front/blob/main/1706556486292.jpeg" width=64>|  <img src="https://avatars.githubusercontent.com/u/" width=64>  |  <img src="https://avatars.githubusercontent.com/u/v=4" width=64>  |  <img src="https://avatars.githubusercontent.com/u/v=4" width=64> |
 :-:|:-:|:-:|:-:|:-:|
 | **Andrea Vilanova**  | **Melisa Molina**  | **Alejandra Panizza**  | **Ariel Galeppi**  
 
