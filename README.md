@@ -87,9 +87,9 @@ npm start
 
  
  [ ![](https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white 'LinkedIn Link')](http://linkedin.com/in/andrea-vilanova-graphic-designer-12963228a) 
-    [ ![](https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white 'LinkedIn Link')](http://linkedin.com/in/melisa-molina-559593145) 
-     [ ![](https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white 'LinkedIn Link')](http://linkedin.com/in/alejandra-carla-panizza) 
-    [ ![](https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white 'LinkedIn Link')](http://linkedin.com/in/ariel-galeppi-8371701ab) 
+                    [ ![](https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white 'LinkedIn Link')](http://linkedin.com/in/melisa-molina-559593145) 
+                    [ ![](https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white 'LinkedIn Link')](http://linkedin.com/in/alejandra-carla-panizza) 
+                    [ ![](https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white 'LinkedIn Link')](http://linkedin.com/in/ariel-galeppi-8371701ab) 
 
 
 #Video 🎥
