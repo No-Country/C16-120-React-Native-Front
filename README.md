@@ -56,8 +56,36 @@ La aplicación ofrece una **amplia variedad de senderos para explorar**, brindan
 
 <br>
 <br>
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-blue?style=flat&logo=linkedin)](http://linkedin.com/in/andrea-vilanova-graphic-designer-12963228a)
+# Requirimientos 🛠️
 
+
+Clonar el repositorio
+```sh
+git clone https://github.com/No-Country/
+```
+Abrir con Visual Studio Code
+```tipear el comando npm i , para bajar las dependencias
+```
+Correr el proyecto localmente
+```
+npm start
+```
+
+# Nuestro team 👇🏻
+
+| <img src="https://avatars.githubusercontent.com/u/113550524?v=4" width=64>| <img src="https://avatars.githubusercontent.com/u/77463982?v=4" width=64>|  <img src="https://avatars.githubusercontent.com/u/113527181?v=4" width=64>  |  <img src="https://avatars.githubusercontent.com/u/77258003?v=4" width=64>  |  <img src="https://avatars.githubusercontent.com/u/86853211?v=4" width=64> |
+:-:|:-:|:-:|:-:|:-:|
+| **Andrea Vilanova**  | **Melisa Molina**  | **Alejandra Panizza**  | **Ariel Galeppi**  
+
+
+|Front-End Dev | Back-End Dev  | QA Analyst 
+| [ ![](https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white 'LinkedIn Link')](http://linkedin.com/in/andrea-vilanova-graphic-designer-12963228a) |
+
+[ ![](https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white 'LinkedIn Link')](https://www.linkedin.com/in/ariadna-menendez) |||||
+
+#Video 🎥
+
+[![](https://i.ibb.co/vcbwP35/Paw-Finder.jpg 'Promotional video')])
 
 
 
@@ -75,7 +103,6 @@ La aplicación ofrece una **amplia variedad de senderos para explorar**, brindan
 [![Trello](https://img.shields.io/badge/Trello-Docs-blue?logo=trello&style=flat-square)](https://help.trello.com/)
 ![Slack](https://img.shields.io/badge/Slack-purple?logo=slack&style=flat-square)
 
-<h3> Autores </h3>
 
 
 
