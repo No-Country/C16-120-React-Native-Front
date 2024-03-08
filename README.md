@@ -56,14 +56,18 @@ La aplicación ofrece una **amplia variedad de senderos para explorar**, brindan
 
 <br>
 <br>
-# Requirimientos 🛠️
+<h3>Requirimientos</h3> 🛠️
 
 
 Clonar el repositorio
 ```sh
 git clone https://github.com/No-Country/C16-120-React-Native-Front.git
 ```
-Abrir con Visual Studio Code
+Instalar dependencias
+
+```sh
+cd .\Client\ | npm install
+```
 
 
 ```tipear el comando npm i , para bajar las dependencias
@@ -73,7 +77,24 @@ Correr el proyecto localmente
 npm start
 ```
 
+<h1> Comenzando
+</h1>
 
+Para instalar el proyecto localmente:
+
+
+
+Instalar dependencias
+
+```sh
+cd .\Client\ | npm install
+```
+
+
+
+```sh
+npm run dev
+```
 
 
 
