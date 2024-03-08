@@ -71,6 +71,9 @@ Correr el proyecto localmente
 npm start
 ```
 
+![Foto de perfil](https://github.com/No-Country/C16-120-React-Native-Front/blob/main/1693237604423.jpeg)
+
+
 # Nuestro team 👇🏻
 
 | <img src="https://avatars.githubusercontent.com/u/" width=64>| <img src="https://avatars.githubusercontent.com/u/v=4" width=64>|  <img src="https://avatars.githubusercontent.com/u/" width=64>  |  <img src="https://avatars.githubusercontent.com/u/v=4" width=64>  |  <img src="https://avatars.githubusercontent.com/u/v=4" width=64> |
@@ -80,7 +83,8 @@ npm start
 
 |Front-End Dev | Back-End Dev  | QA Analyst 
 | [ ![](https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white 'LinkedIn Link')](http://linkedin.com/in/andrea-vilanova-graphic-designer-12963228a) |
-
+| [ ![](https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white 'LinkedIn Link')]
+(http://linkedin.com/in/melisa-molina-559593145)
 
 #Video 🎥
 
