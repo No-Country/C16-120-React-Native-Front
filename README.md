@@ -90,6 +90,18 @@ npm start
 
 
 
+# Nuestro team 👇🏻
+
+| <img src="https://avatars.githubusercontent.com/u/" width=64>| <img src="https://avatars.githubusercontent.com/u/v=4" width=64>|  <img src="https://avatars.githubusercontent.com/u/" width=64>  |  <img src="https://avatars.githubusercontent.com/u/v=4" width=64>  |  <img src="https://avatars.githubusercontent.com/u/v=4" width=64> |
+:-:|:-:|:-:|:-:|:-:|
+| **Andrea Vilanova**  | **Melisa Molina**  | **Alejandra Panizza**  | **Ariel Galeppi**  
+
+
+|Front-End Dev | Back-End Dev  | QA Analyst 
+| [ ![](https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white 'LinkedIn Link')](http://linkedin.com/in/andrea-vilanova-graphic-designer-12963228a) |
+| [ ![](https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white 'LinkedIn Link')]
+(http://linkedin.com/in/melisa-molina-559593145)
+
 #Video 🎥
 
 [![](https://i.ibb.co/vcbwP35/Paw-Finder.jpg 'Promotional video')])
