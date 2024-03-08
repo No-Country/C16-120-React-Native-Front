@@ -56,25 +56,16 @@ La aplicación ofrece una **amplia variedad de senderos para explorar**, brindan
 
 <br>
 <br>
-<h3>Requirimientos</h3> 🛠️
+### Requerimientos 🛠️
 
-
-Clonar el repositorio
+1. **Clonar el repositorio:**
 ```sh
 git clone https://github.com/No-Country/C16-120-React-Native-Front.git
-```
-Instalar dependencias
-
-```sh
-cd .\Client\ | npm install
 
 
-```tipear el comando npm i , para bajar las dependencias
-```
-Correr el proyecto localmente
-```
+cd Client/ && npm install
+
 npm start
-```
 
 
 
