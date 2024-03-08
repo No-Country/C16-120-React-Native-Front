@@ -77,25 +77,6 @@ Correr el proyecto localmente
 npm start
 ```
 
-<h1> Comenzando
-</h1>
-
-Para instalar el proyecto localmente:
-
-
-
-Instalar dependencias
-
-```sh
-cd .\Client\ | npm install
-```
-
-
-
-```sh
-npm run dev
-```
-
 
 
 
