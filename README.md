@@ -94,7 +94,7 @@ npm start
 
 #Video 🎥
 
-[![Video demo](https://img.youtube.com/vi/TU_ID_DE_VIDEO/maxresdefault.jpg)](https://www.youtube.com/watch?v=N6JIYMpqkSg)
+[![Video demo](https://img.youtube.com/vi/v=N6JIYMpqkSg/maxresdefault.jpg)](https://www.youtube.com/watch?v=N6JIYMpqkSg)
 
 
 
