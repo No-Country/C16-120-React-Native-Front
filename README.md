@@ -73,7 +73,7 @@ npm start
 
 # Nuestro team 👇🏻
 
-| <img src="https://avatars.githubusercontent.com/u/113550524?v=4" width=64>| <img src="https://avatars.githubusercontent.com/u/77463982?v=4" width=64>|  <img src="https://avatars.githubusercontent.com/u/113527181?v=4" width=64>  |  <img src="https://avatars.githubusercontent.com/u/77258003?v=4" width=64>  |  <img src="https://avatars.githubusercontent.com/u/86853211?v=4" width=64> |
+| <img src="https://avatars.githubusercontent.com/u/" width=64>| <img src="https://avatars.githubusercontent.com/u/v=4" width=64>|  <img src="https://avatars.githubusercontent.com/u/" width=64>  |  <img src="https://avatars.githubusercontent.com/u/v=4" width=64>  |  <img src="https://avatars.githubusercontent.com/u/v=4" width=64> |
 :-:|:-:|:-:|:-:|:-:|
 | **Andrea Vilanova**  | **Melisa Molina**  | **Alejandra Panizza**  | **Ariel Galeppi**  
 
@@ -81,7 +81,6 @@ npm start
 |Front-End Dev | Back-End Dev  | QA Analyst 
 | [ ![](https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white 'LinkedIn Link')](http://linkedin.com/in/andrea-vilanova-graphic-designer-12963228a) |
 
-[ ![](https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white 'LinkedIn Link')](https://www.linkedin.com/in/ariadna-menendez) |||||
 
 #Video 🎥
 
