@@ -56,7 +56,8 @@ La aplicación ofrece una **amplia variedad de senderos para explorar**, brindan
 
 <br>
 <br>
-[![LinkedIn](https://img.shields.io/badge/http://linkedin.com/in/andrea-vilanova-graphic-designer-12963228a-blue?style=flat&logo=linkedin)](tu_enlace_de_linkedin)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-blue?style=flat&logo=linkedin)](http://linkedin.com/in/andrea-vilanova-graphic-designer-12963228a)
+
 
 
 
