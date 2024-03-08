@@ -94,7 +94,12 @@ npm start
 
 #Video 🎥
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/N6JIYMpqkSg" frameborder="0" allowfullscreen></iframe>
+
+
+
+<p><a href="https://www.youtube.com/watch?v=QVgfj7hjp8g" target="_blank"><img src="https://img.youtube.com/vi/QVgfj7hjp8g/maxresdefault.jpg"/></a></p>
+<br/>
+
 
 <h5> Tecnologias  </h5>
 
