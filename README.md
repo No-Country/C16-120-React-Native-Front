@@ -77,16 +77,16 @@ npm start
 # Nuestro team 👇🏻
 
 | <img src="https://github.com/No-Country/C16-120-React-Native-Front/blob/main/1698318017602.jpeg" width=64>| |  <img src="https://github.com/No-Country/C16-120-React-Native-Front/blob/main/1706556486292.jpeg" width=64>  | <img src="https://github.com/No-Country/C16-120-React-Native-Front/blob/main/1693237604423.jpeg" width=64> |  <img src="https://github.com/No-Country/C16-120-React-Native-Front/blob/main/1709562899018.jpeg" width=64> |
-:-:|:-:|:-:|:-:|:-:|
+:-:|:-:|:-:|:-:|
 | **Andrea Vilanova**  | **Melisa Molina**  | **Alejandra Panizza**  | **Ariel Galeppi**  
 
 
-|Front-End Dev | Back-End Dev  | QA Analyst 
-| [ ![](https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white 'LinkedIn Link')](http://linkedin.com/in/andrea-vilanova-graphic-designer-12963228a) |
 
-| [ ![](https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white 'LinkedIn Link')](http://linkedin.com/in/melisa-molina-559593145) |
+ [ ![](https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white 'LinkedIn Link')](http://linkedin.com/in/andrea-vilanova-graphic-designer-12963228a) 
 
-| [ ![](https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white 'LinkedIn Link')](http://linkedin.com/in/alejandra-carla-panizza) |
+[ ![](https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white 'LinkedIn Link')](http://linkedin.com/in/melisa-molina-559593145) 
+
+[ ![](https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white 'LinkedIn Link')](http://linkedin.com/in/alejandra-carla-panizza) 
 
 
 
