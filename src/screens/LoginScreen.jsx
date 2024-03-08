@@ -17,7 +17,7 @@ import * as SecureStore from 'expo-secure-store'
 
 export default function LoginScreen() {
   const dismissKeyboard = () => {
-    // Keyboard.dismiss();
+    Keyboard.dismiss();
   };
 
 

@@ -47,7 +47,7 @@ const Populares = () => {
         {/* Menú desplegable */}
         {isMenuOpen && (
      <View style={styles.dropdown}>
-     <TouchableOpacity style={styles.option} onPress={() => navigation.push('Populares')}>
+     <TouchableOpacity style={styles.option} onPress={() => navigation.push('Login')}>
        <View style={styles.optionContent}>
          <Ionicons name="home" size={16} color="orange" />
          <Text style={styles.optionText}> Inicio</Text>
@@ -59,10 +59,10 @@ const Populares = () => {
          <Text style={styles.optionText}> Agregar Sendero</Text>
        </View>
      </TouchableOpacity>
-     <TouchableOpacity style={styles.option} onPress={() => navigation.push('Search')}>
+     <TouchableOpacity style={styles.option} onPress={() => navigation.push('Profile')}>
        <View style={styles.optionContent}>
          <Ionicons name="person" size={16} color="orange" />
-         <Text style={styles.optionText}> Buscar sendero</Text>
+         <Text style={styles.optionText}>Perfil</Text>
        </View>
      </TouchableOpacity>
    </View>

@@ -61,12 +61,12 @@ const Trails =  () => {
     }
   };
 
-  // const dismissKeyboard = () => {
-  //   Keyboard.dismiss();
-  // };
+  const dismissKeyboard = () => {
+    Keyboard.dismiss();
+  };
 
   return (
-    // <TouchableWithoutFeedback onPress={dismissKeyboard}>
+    <TouchableWithoutFeedback onPress={dismissKeyboard}>
     <View style={styles.container}>
       <View style={styles.containerImage}>
         <Image style={styles.img} source={require("../../assets/Logo.png")} />
@@ -120,7 +120,7 @@ const Trails =  () => {
         <Text style={styles.buttonText}>Volver</Text>
       </TouchableOpacity>
     </View>
-    // </TouchableWithoutFeedback>
+     </TouchableWithoutFeedback>
   );
 };
 

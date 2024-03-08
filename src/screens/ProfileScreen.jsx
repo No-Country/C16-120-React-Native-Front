@@ -65,7 +65,7 @@ export default function ProfileScreen() {
                         
 
                         {/* Button */}
-                        <TouchableOpacity style={styles.button} onPress={() => navigation.push('Success')}>
+                        <TouchableOpacity style={styles.button} onPress={() => navigation.push('EditOk')}>
                             <Text style={styles.buttonText}>Editar mis datos</Text>
                         </TouchableOpacity>
                     </View>

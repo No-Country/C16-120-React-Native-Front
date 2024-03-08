@@ -15,7 +15,7 @@ import axios from "axios";
 
 export default function SignUpScreen() {
   const dismissKeyboard = () => {
-    // Keyboard.dismiss();
+    Keyboard.dismiss();
   };
   const navigation = useNavigation();
   const [nombre, setNombre] = useState("");
@@ -35,7 +35,7 @@ export default function SignUpScreen() {
       );
       if (response.data.status === 201) {
         // Puedes redirigir a otra pantalla después de enviar los datos si es necesario
-        //   navigation.push("OkRuta")
+          navigation.push("SignUpOk")
       console.log
       }
     } 
